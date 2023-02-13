@@ -4,21 +4,23 @@ This is a Micro Service Application developed using Spring Boot framework. It pr
 ## Microservices
 1. Account Service (port 8020)
    - The Account Service is responsible for maintaining records of all the different types of accounts offered by the bank. This information is stored in a database, which can be accessed by other microservices as needed.
-   - The Account Service also keeps track of the customers who have created accounts within the kikob.
+   
 2. Customer Service (port 8080)
    - The Customer Service is responsible for maintaining records of all the customers. This information includes customer details such as name, address, and contact information.
-   - This information is stored in a separate database, which can be accessed by other microservices as needed. 
+   
 3. Loan Service (port 8030)
    - The Loan Service is responsible for maintaining records of all loan requests made by customers. This information includes details such as the amount of the loan and the customer's credit history.
-   - This information is stored in a separate database, which can be accessed by other microservices as needed.
+   
 4. Staff Service (port 8040)
    - The Staff Service is responsible for maintaining records of all the staff members. This information includes details such as the staff members' names, positions, and responsibilities.
-   - This information is stored in a separate database, which can be accessed by other microservices as needed.
+
 5. Transaction Service (port 8050)
    - The Transaction Service is responsible for maintaining records of all transactions made by customers. This information includes details such as the date, amount, and type of transaction.
-   - This information is stored in a separate database, which can be accessed by other microservices as needed.
 
-## Technology Stack
+
+NOTE: All these Microservices have their own databases, which can be accessed y other microservices when needed
+
+## Technology used for this project
 - Spring Boot
 - Java
 - Microservices Architecture
